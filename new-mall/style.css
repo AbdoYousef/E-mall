@@ -1,0 +1,168 @@
+.new-mall-entery{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.new-mall-entery img{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    z-index: -1;
+}
+
+.new-mall-entery h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.new-mall-entery p{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #565454;
+}
+
+.new-mall-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.new-mall-page h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+
+.new-mall-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    direction: rtl;
+}
+
+.form-item label{
+    font-size: 28PX;
+    font-weight: 500;
+    line-height: 35PX;
+}
+
+.box-input{
+    width: 100%;
+    border: 1px solid #4B4B4B;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    height: 70px;
+    padding: 0 5px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.box-input:focus{
+    outline: none;
+}
+
+
+.mobile-input{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#phone-number{
+    width: 80%;
+}
+
+#mobile-key{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 10px 20px;
+    
+}
+
+#mobile-key option{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.password-input{
+    display: flex;
+    border: 1px solid #4B4B4B;
+    border-radius: 20px;
+}
+
+.password-conf{
+    border: none;
+}
+
+.pass-img{
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    align-self: center;
+}
+
+#eye,
+#eye-conf{
+    display: none;
+}
+
+#submit-btn{
+    color: #fff;
+    background: #348888;
+    border-radius: 50px;
+    width: 50%;
+    border: none;
+    padding: 15px 0;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5 ease;
+    -webkit-transition: 0.5 ease;
+    -moz-transition: 0.5 ease;
+    -ms-transition: 0.5 ease;
+    -o-transition: 0.5 ease;
+}
+
+#submit-btn:hover{
+    scale: 1.03;
+}
+
+#hv-mall{
+    text-decoration: underline;
+    color: #348888;
+    font-size: 24px;
+    font-weight: 400;
+}
+

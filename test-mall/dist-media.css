@@ -1,0 +1,156 @@
+@media only screen and (max-width: 990px) {
+    .disting-page-entry{
+        height: 40vh;
+    }
+
+    .disting-page-entry img{
+        height: 40vh;
+    }
+
+    .disting-page-entry h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .disting-page-entry p{
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .features-sec {
+        padding: 30px;
+        gap: 50px;
+    }
+
+    .faeture-brief h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .feature-note img{
+        width: 300px;
+        height: auto;
+    }
+
+    .feature-note p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .disting-page-entry{
+        height: 40vh;
+    }
+
+    .disting-page-entry img{
+        height: 40vh;
+    }
+
+    .disting-page-entry h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .disting-page-entry p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .br-hide{
+        display: none;
+    }
+
+    .features-sec {
+        padding: 20px;
+        gap: 40px;
+    }
+
+    .faeture-brief{
+        gap: 30px;
+    }
+
+    .faeture-brief h3 {
+        font-size: 22px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .feature-note{
+        gap: 20px;
+    }    
+
+    .feature-note img{
+        width: 200px;
+        height: auto;
+    }
+
+    .feature-note p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .disting-page-entry{
+        height: 40vh;
+    }
+
+    .disting-page-entry img{
+        height: 40vh;
+    }
+
+    .disting-page-entry h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .disting-page-entry p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .br-hide{
+        display: none;
+    }
+
+    .features-sec {
+        padding: 20px;
+        gap: 40px;
+    }
+
+
+
+    .faeture-brief{
+        gap: 30px;
+    }
+
+    .faeture-brief h3 {
+        font-size: 22px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .feature-note{
+        gap: 20px;
+        flex-direction: column;
+    }    
+
+    .features-sec div:nth-child(even) .feature-note{
+        flex-direction: column-reverse;
+    }
+
+    .feature-note img{
+        width: 250px;
+        height: auto;
+    }
+
+    .feature-note p{
+        font-size: 18px;
+        line-height: 24px;
+        width: 100%;
+    }
+}

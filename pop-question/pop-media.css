@@ -1,0 +1,143 @@
+
+@media only screen and (min-width: 768.01px) and (max-width: 990px) {
+    .pop-quest-entery h3{
+        font-size: 30px;
+    }
+
+    .pop-quest-entery p{
+        font-size: 22px;
+        /* font-weight: 500; */
+        /* line-height: 60px; */
+    }
+
+    .pop-quest-page h3{
+        font-size: 30px;
+        /* line-height: 50px;
+        font-weight: 700; */
+    }
+
+    .pop-quest img{
+        width: 60px;
+        /* height: auto; */
+    }
+
+    .quest p{
+        font-size: 22px;
+        /* font-weight: 500; */
+        line-height: 40px;
+        color: #565454;
+        direction: rtl;
+    }
+
+    .hidden-answer{
+        font-size: 18px;
+        /* font-weight: 500; */
+        line-height: 40px;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .pop-quest-entery h3{
+        font-size: 24px;
+    }
+
+    .pop-quest-entery p{
+        font-size: 18px;
+        /* font-weight: 500; */
+        /* line-height: 60px; */
+    }
+
+    .pop-quest-page h3{
+        font-size: 24px;
+        /* line-height: 50px;
+        font-weight: 700; */
+    }
+
+    .br-show{
+        display: flex;
+    }
+
+    .br-hide{
+        display: none;
+    }
+
+    .pop-quest-page{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .pop-quest img{
+        width: 60px;
+        /* height: auto; */
+    }
+
+    .quest{
+        padding: 10px;
+    }
+
+    .quest p{
+        font-size: 18px;
+        /* font-weight: 500; */
+        line-height: 30px;
+    }
+
+    .hidden-answer{
+        font-size: 16px;
+        /* font-weight: 500; */
+        line-height: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .pop-quest-entery h3{
+        font-size: 24px;
+    }
+
+    .pop-quest-entery p{
+        font-size: 18px;
+        /* font-weight: 500; */
+        /* line-height: 60px; */
+    }
+
+    .pop-quest-page h3{
+        font-size: 24px;
+        /* line-height: 50px;
+        font-weight: 700; */
+    }
+
+    .br-show{
+        display: none;
+    }
+
+    .br-hide{
+        display: none;
+    }
+
+    .pop-quest-page{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .pop-quest img{
+        width: 60px;
+        /* height: auto; */
+    }
+
+    .quest{
+        padding: 10px;
+    }
+
+    .quest p{
+        font-size: 18px;
+        /* font-weight: 500; */
+        line-height: 30px;
+    }
+
+    .hidden-answer{
+        font-size: 16px;
+        /* font-weight: 500; */
+        line-height: 30px;
+    }
+}

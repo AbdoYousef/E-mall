@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style Sheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="new-media.css">
+    <link rel="stylesheet" href="../home/resetcss.css">
+    <link rel="stylesheet" href="../home/style.css">
+    <link rel="stylesheet" href="../home/style-media.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9d42f08c1f.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="../home/img/logo.png"/>
+    <!-- font -->
+    <link href="https://fonts.cdnfonts.com/css/cairo-2" rel="stylesheet">
+    <title>E-Mall</title>
+</head>
+<body>
+    <div class="mobile-header">
+        <div class="toggler-login">
+            <i id="toggler-btn" class="fa-solid fa-bars" "></i>
+            <button class="login-btn-mob">تسجيل الدخول</button>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <img class="logo" src="../home/img/logo.png" alt="">
+            </a>
+        </div>
+    </div>
+    <header>
+        <button class="login-btn">تسجيل الدخول</button>
+        <div class="header-right">
+            <ul class="nav-bar">
+                <li class="nav-item"><a href="#">خدمة إيمول شيب الذكية</a></li>
+                <li class="nav-item"><a href="#">ما الذي يميزنا</a></li>
+                <li class="nav-item"><a href="#">مركز المساعدة</a></li>
+                <li class="nav-item"><a href="../pop-question/index.html">أسئلة شائعة</a></li>
+                <li class="nav-item"><a href="../bundles/index.html">الباقات</a></li>
+                <li class="nav-item"><a href="index.html">الرئيسية</a></li>
+            </ul>
+            <a href="index.html"><img class="logo" src="../home/img/logo.png" alt="LOGO"></a>
+            <i class="fa-solid fa-xmark" id="header-close"></i>
+        </div>
+        
+    </header>
+    <div class="new-mall-entery">
+        <img src="../bundles/img/backg.png" alt="">
+        <h3 class="pub-h3">تجربة المتجر</h3>
+        <p>حاب تشوف شكل المتجر ولوحة التحكم؟
+            <br>
+            بإمكانك تاخد جولة تجريبية</p>
+    </div>
+
+    <div class="new-mall-page">
+        <h3 class="pub-h3">إنشاء متجر جديد</h3>
+        <form action="" class="new-mall-form">
+            <div class="form-item">
+                <label for="">الاسم</label>
+                <input type="text" class="box-input" id="name " name="name" placeholder="" value="">
+            </div>
+            <div class="form-item">
+                <label for="mail">البريد الإلكتروني</label>
+                <input type="mail" class="box-input" id="mail " name="mail" placeholder="">
+            </div>
+            <div class="form-item mobile-num">
+                <label for="">رقم الجوال</label>
+                <div class="mobile-input">
+                    <input type="tel" class="box-input phone-number" placeholder="">
+                    <select name="mobile-key"class="box-input" id="mobile-key">
+                        <option value="966">966</option>
+                        <option value="399">399</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="password">كلمة المرور</label>
+                <div class="password-input">
+                    <input type="password" class="box-input password-conf" id="password" name="password" placeholder=" " value="">
+                    <img class="pass-img" id="eye-slash" src="img/EyeSlash.png" alt="">
+                    <img class="pass-img" id="eye" src="img/eye.png" alt="">
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="password-conf">تأكيد كلمة المرور</label>
+                <div class="password-input">
+                    <input type="password" class="box-input password-conf" id="password-conf" name="password" placeholder="" value="">
+                    <img class="pass-img" id="eye-slash-conf" src="img/EyeSlash.png" alt="">
+                    <img class="pass-img" id="eye-conf" src="img/eye.png" alt="">
+                </div>
+            </div>
+            <input id="submit-btn" type="submit" value="إشتراك">
+        </form>
+    
+        <a href="#" id="hv-mall">لدي متجر  بالفعل </a>
+    </div>
+
+
+
+
+    <section class="services-sec">
+        <div class="service-card" id="service-card-1">
+            <div class="service-card-right">
+                <h3>تجربة دفع إلكتروني بسيطة <br> وبدون تعقيد</h3>
+                <ul>
+                    <li>احصل على تقرير شهري بجميع مدفوعاتك</li>
+                    <li>تمكن من معرفة رصيدك من خلال منصات الدفع مدى و STR PAY و Apple Pay</li>
+                    <li>يمكنك ارجاع المبالغ تلقائيا دون الحاجة إلى التواصل مع المنصة</li>
+                </ul>
+            </div>
+            <img src="../home/img/money.png" alt="">
+        </div>
+        <div class="service-card" id="service-card-2">
+            <div class="service-card-right">
+                <h3>خدمات شحن مميزة تقودك <br> إلى الأفضل</h3>
+                <p>
+                    اشحن مع أكثر من 20 شركة شحن و بعقد واحد مع إمكانية تغيير شركة الشحن أثناء الطلب.
+                </p>
+            </div>
+            <img src="../home/img/shipping.png" alt="">
+        </div>
+        <div class="service-card" id="service-card-3">
+            <div class="service-card-right">
+                <h3> متجر الإلكتروني احترافي</h3>
+                <p>
+                    نوفر لك متجر الكتروني بمزايا مختلفة تساعدك في تسويق منتجاتك بشكل أفضل وزيادة مبيعاتك
+                    يمكنك متابعة الطلبات والتخفيضات والعروض مباشرة من خلال المتجر بضغطة زر واحدة    
+                </p>
+            </div>
+            <img src="../home/img/e-market.png" alt="">
+        </div>
+        <!-- The dots/circles -->
+        <div class="dots">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-sec">
+            <img class="footer-img" src="../home/img/footer-img.png" alt="">
+            <hr>
+            <p>نحن منصة الكترونية مؤسسة مسجلة 
+                رسميا في وزارة التجارة باسم مؤسسة المول التقني برقم 
+                4031270570 نهتم بكل ما يتعلق باهتمام وشغف التاجر، نسعى إلى 
+                تحقيق آمال التجار ، إن منصتنا تساند التاجر 
+                وتلبي جميع متطلباته .فركز على نمو تجارتك 
+                ،واترك لنا مهمة تشغيل متجرك الالكتروني.</p>
+        </div>
+        <div class="footer-sec">
+            <h3>روابط مهمة</h3>
+            <hr>
+            <ul>
+                <li>الرئيسية</li>
+                <li>باقاتنا</li>
+                <li>إيمول دروب شيبينق (قريبا)</li>
+                <li>سياسات وشروط المنصة</li>
+                <li>أسئلة شائعة</li>
+            </ul>
+        </div>
+        <div class="footer-sec">
+            <h3>معلومات أكثر</h3>
+            <hr>
+            <ul>
+                <li>منصة الكترونية شاملة</li>
+                <li>مقرها / السعودية</li>
+                <li>ما الذى يميزنا عن غيرنا</li>
+                <li>تذاكر الدعم الفنى</li>
+                <li>شروحات المتاجر</li>
+            </ul>
+        </div>
+        <div class="footer-sec">
+            <h3>تواصل معنا</h3>
+            <hr>
+            <p>يمكنك مراسلتنا في أي وقت تريد من نموذج التواصل وإذا 
+                واجهتك مشكلة في الدفع مع إحدى المتاجر على المنصة،
+                اضغط على انشاء تذكرة أو تابعنا على قناتنا 
+                التعليمية على اليوتيوب حيث يتم شرح جميع الخدمات 
+                والامكانيات وعمل لقاءات تعليمية قناة المنصة.
+            </p>
+            <div class="social-icons">
+                <i class="fa-brands fa-instagram" style="color: #717070;"></i>
+                <i class="fa-brands fa-facebook" style="color: #717070;"></i>
+                <i class="fa-brands fa-twitter" style="color: #717070;"></i>
+            </div>
+        </div>
+    </footer>
+    <div class="copy-rights">
+        <p>جميع الحقوق محفوظة </p>
+    </div>
+
+    <script src="../home/main.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
